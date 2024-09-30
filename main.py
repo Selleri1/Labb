@@ -1,6 +1,8 @@
+from add import add 
+
 def rakn(t1, t2, op):
     if op == '+':
-        return t1 + t2
+        return add(t1, t2)
 
     if op == '-':
         return t1 - t2
