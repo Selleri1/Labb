@@ -18,9 +18,9 @@ def rakn(t1, t2, op):
         return mult(t1, t2)
 
 
-t1 = int(input('tal 1'))
-op = input('operator')
-t2 = int(input('tal 1'))
+t1 = int(input('Tal 1: '))
+op = input('Operator: ').strip()
+t2 = int(input('Tal 2:'))
 
 
 print(rakn(t1, t2, op))
