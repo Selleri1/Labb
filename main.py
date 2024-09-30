@@ -2,6 +2,9 @@ def rakn(t1, t2, op):
     if op == '+':
         return t1 + t2
 
+    if op == '-':
+        return t1 - t2
+
 
 t1 = int(input('tal 1'))
 op = input('operator')
