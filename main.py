@@ -1,13 +1,15 @@
 from add import add 
 from div import div
 from mult import mult
+from sub import sub
+
 
 def rakn(t1, t2, op):
     if op == '+':
         return add(t1, t2)
 
     if op == '-':
-        return t1 - t2
+        return sub(t1, t2)
 
     if op == '/':
         return div(t1, t2) 
