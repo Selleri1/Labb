@@ -1,4 +1,6 @@
 from add import add 
+from mult import mult
+
 
 def rakn(t1, t2, op):
     if op == '+':
@@ -6,6 +8,9 @@ def rakn(t1, t2, op):
 
     if op == '-':
         return t1 - t2
+
+    if op == '*':
+        return mult(t1, t2)
 
 
 t1 = int(input('tal 1'))
